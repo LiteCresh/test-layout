@@ -9,13 +9,13 @@ document.addEventListener("DOMContentLoaded", function () {
 	let isMenuOpen = false;
 
 	function toggleMenu() {
-		if (window.innerWidth < 1199.89) {
+		if (window.innerWidth < 1439.89) {
 			 if (isMenuOpen) {
 				  menuNav.classList.add("hide");
-				  contacts.classList.add("hide"); // Додаємо hide для контактів
+				  contacts.classList.add("hide");
 				  setTimeout(() => {
 						menuNav.classList.remove("active", "hide");
-						contacts.classList.remove("active", "hide"); // Прибираємо класи після анімації
+						contacts.classList.remove("active", "hide");
 						header.style.height = "62.98px";
 						headerContainer.style.height = "62.98px";
 						headerBlock.style.height = "62.98px";
