@@ -16,9 +16,9 @@ document.addEventListener("DOMContentLoaded", function () {
 				  setTimeout(() => {
 						menuNav.classList.remove("active", "hide");
 						contacts.classList.remove("active", "hide");
-						header.style.height = "62.98px";
-						headerContainer.style.height = "62.98px";
-						headerBlock.style.height = "62.98px";
+						header.style.height = "103px";
+						headerContainer.style.height = "103px";
+						headerBlock.style.height = "103px";
 				  }, 200);
 			 } else {
 				  header.style.height = "330px";
