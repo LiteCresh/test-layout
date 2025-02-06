@@ -21,9 +21,9 @@ document.addEventListener("DOMContentLoaded", function () {
 						headerBlock.style.height = "62.98px";
 				  }, 200);
 			 } else {
-				  header.style.height = "280px";
-				  headerContainer.style.height = "280px";
-				  headerBlock.style.height = "280px";
+				  header.style.height = "330px";
+				  headerContainer.style.height = "330px";
+				  headerBlock.style.height = "330px";
 				  contacts.classList.add("active");
 				  setTimeout(() => {
 						menuNav.classList.add("active");
